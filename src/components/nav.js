@@ -23,10 +23,6 @@ function App() {
         <Link to="Contact" className="tltle-text">
           <span className="title-text2">Contact</span>
         </Link>
-
-        <Link to="Login" className="tltle-text">
-          <span className="title-text2">Login</span>
-        </Link>
       </header>
     </div>
   );

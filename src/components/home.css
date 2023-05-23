@@ -1,10 +1,36 @@
 .hometitle {
+  background-color: #aa4b6b;
   text-align: center;
-  height: 85vh;
+  height: 90vh;
   width: 100%;
 }
 
 .hometitle_text {
+  margin-top: 0px;
   padding-top: 3rem;
   font-size: 3rem;
+}
+
+.homebody {
+  background-color: #6b6b83;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.homebody2 {
+  background-color: #3b8d99;
+  text-align: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.homebody_title {
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.homebody_content {
+  padding-top: 3rem;
+  font-size: 1.5rem;
 }
