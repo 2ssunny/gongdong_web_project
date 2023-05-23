@@ -1,0 +1,22 @@
+.title-header {
+  background-color: #282c34;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+  margin-bottom: 0px;
+}
+
+.title-logo {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 60px;
+  width: auto;
+  padding-right: 20px;
+}
+
+.tltle-text {
+  margin-left: 20px;
+  color: white;
+  text-decoration: none;
+}

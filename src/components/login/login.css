@@ -1,0 +1,21 @@
+.logintitle {
+  text-align: center;
+  height: 85vh;
+  width: 100%;
+}
+
+.logintitle_text {
+  padding-top: 3rem;
+  font-size: 3rem;
+}
+
+.signup_link {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.signup_link_text {
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: inherit;
+}

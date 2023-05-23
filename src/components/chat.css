@@ -1,0 +1,10 @@
+.chattitle {
+  text-align: center;
+  height: 85vh;
+  width: 100%;
+}
+
+.chattitle_text {
+  padding-top: 3rem;
+  font-size: 3rem;
+}
