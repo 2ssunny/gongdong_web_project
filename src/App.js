@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Nav from "./components/nav.js";
@@ -13,8 +12,6 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
-          <Route index element={<Home />} />
-          <Route path="Home" element={<Home />} />
           <Route path="About" element={<About />} />
           <Route path="Chat" element={<Chat />} />
           <Route path="Contact" element={<Contact />} />
