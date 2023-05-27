@@ -12,6 +12,7 @@ function App() {
       <BrowserRouter>
         <Nav />
         <Routes>
+          <Route path="Nav" element={<Nav />} />
           <Route path="About" element={<About />} />
           <Route path="Chat" element={<Chat />} />
           <Route path="Contact" element={<Contact />} />
