@@ -1,6 +1,6 @@
 .contacttitle {
   text-align: center;
-  height: 75vh;
+  height: 90vh;
   width: 100%;
   background-color: #acb6e5;
 }
@@ -12,7 +12,20 @@
 
 .contactbody {
   background-color: #acb6e5;
-  height: 15vh;
+}
+
+.contactbody_text {
+  text-align: center;
+  padding-top: 3rem;
+  font-size: 1.5rem;
+}
+
+.contactbody_text_begin {
+  margin-top: 0px;
+}
+
+.contactbody_text_explain {
+  margin-top: 0px;
 }
 
 .contact {
@@ -20,6 +33,14 @@
   align-items: center;
   justify-content: center;
   display: flex;
+}
+
+.links {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  font-weight: bold;
 }
 
 .contact a:nth-child(1) {
