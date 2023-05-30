@@ -1,5 +1,8 @@
 import "./App.css";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
+import axios from "axios";
+import React from "react";
+
 import Nav from "./components/nav.js";
 import Home from "./components/home.js";
 import About from "./components/about.js";

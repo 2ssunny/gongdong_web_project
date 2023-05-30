@@ -1,10 +1,88 @@
 .contacttitle {
   text-align: center;
-  height: 85vh;
+  height: 75vh;
   width: 100%;
+  background-color: #acb6e5;
 }
 
 .contacttitle_text {
   padding-top: 3rem;
   font-size: 3rem;
+}
+
+.contactbody {
+  background-color: #acb6e5;
+  height: 15vh;
+}
+
+.contact {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.contact a:nth-child(1) {
+  /*Instagram*/
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #f27121, #e94057, #8a2387);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact a:nth-child(2) {
+  /*Telegram*/
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #1488cc, #2b32b2);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact a:nth-child(3) {
+  /*Github*/
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #1f1c2c, #928dab);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact a:nth-child(4) {
+  /*Kakaotalk*/
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #cac531, #f3f9a7);
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.contact a:hover {
+  transform: scale(1.3);
+  transition: 0.2s;
 }

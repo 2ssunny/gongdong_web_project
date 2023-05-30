@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import React from "react";
 
 import "./nav.css";
-import logo from "../media/daegunlogo.png";
+import logo from "../media/logo.png";
 
 function App() {
   return (

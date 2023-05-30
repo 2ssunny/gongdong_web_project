@@ -1,5 +1,5 @@
 .title-header {
-  background-color: #282c34;
+  background-color: #e4e5e6;
   color: white;
   display: flex;
   align-items: center;
@@ -17,6 +17,6 @@
 
 .tltle-text {
   margin-left: 20px;
-  color: white;
+  color: black;
   text-decoration: none;
 }
