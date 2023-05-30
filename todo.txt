@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 1. add contents in about
 2. add contents in contact
 3. let nav bar appear in chat.js - done
 4. add chatbot chat contents
 5. make food list crawling script
 6. make timetable crawling script
+=======
+1. add chatbot chat contents
+2. make food list crawling js file
+3. make timetable crawling js file
+>>>>>>> cfdb380718e15baeb3d7423c29ea5c79654666d6
