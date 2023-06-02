@@ -1,15 +1,18 @@
 import React from "react";
 
-const ActionProvider = ({ createChatBotMessage, setState, children }) => {
-  return (
-    <div>
-      {React.Children.map(children, (child) => {
-        return React.cloneElement(child, {
-          actions: {},
-        });
-      })}
-    </div>
-  );
-};
+class ActionProvider {
+  constructor(createChatBotMessage, setStateFunc, createClientMessage) {
+    this.createChatBotMessage = createChatBotMessage;
+    this.setState = setStateFunc;
+    this.createClientMessage = createClientMessage;
+  }
+
+  handleHello() {
+    const message = this.createChatBotMessage("Hello. Nice to meet you.");
+    this.setState((prev) => {
+      return { ...prev, messages: [...prev.messages, message] };
+    });
+  }
+}
 
 export default ActionProvider;
