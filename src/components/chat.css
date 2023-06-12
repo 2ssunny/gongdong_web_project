@@ -1,4 +1,37 @@
+.chat_explain {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.chat_explain_title {
+  font-size: 2rem;
+  font-weight: bold;
+  padding-left: 2rem;
+}
+
+.chat_explain_title2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
 .chatbot {
   justify-content: center;
   align-items: center;
+}
+
+.chat_page {
+  height: 80vh;
+  width: 100%;
+  background-color: #93edc7;
+}
+
+.chatbot_button {
+  background-color: #93edc7;
+  border: none;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 12px;
 }
