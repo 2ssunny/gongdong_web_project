@@ -1,2 +1,2 @@
 # gongdong_web_project
-[Link](https://gongdong.ssunny.me)ㅣ
+[Link](https://gongdong.ssunny.me)
